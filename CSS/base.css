@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+body{
+    line-height: 1.6;
+    margin: 0; 
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2{
+    margin: 0;
+}
+
+p{
+    font-size: 0.95em;
+    margin-bottom: 1.8em;
+    padding: 0.5em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-height: 1em;
+}
+.btn{
+    margin:0 auto;
+}
+/* ------------ */
+.name{
+    margin:0;
+}
+
+.main-header{
+    background-color: #a3def7;
+    display:flex;
+    justify-content: space-between;
+}
+
+.banner,.btn{
+    display: flex;
+    justify-content: center;
+}
