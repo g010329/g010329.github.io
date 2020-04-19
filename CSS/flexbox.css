@@ -1,13 +1,5 @@
 @media(min-width:1200px){
-    .main-nav{
-        display:flex;
-    }
-    .main-nav a{
-        display: flex;
-    }
     .name a,.main-nav a{
-        display: block;
-        padding: 10px 15px;
         text-transform: uppercase;
     }
     .menuTrigger{
@@ -27,15 +19,8 @@
     
 }
 @media(min-width:800px) and (max-width:1200px){
-    .main-nav{
-        display:flex;
-    }
-    .main-nav a{
-        display: flex;
-    }
+    
     .name a,.main-nav a{
-        display: block;
-        padding: 10px 15px;
         text-transform: uppercase;
     }
     .menuTrigger{
@@ -45,7 +30,6 @@
         display:flex;
         margin: 0 auto;
         flex-wrap: wrap;
-        /* width:90%; */
     }
     .col{
         flex:1 50%;
@@ -55,15 +39,11 @@
     
 }
 @media(min-width:500px) and (max-width:800px){
-    .main-nav{
-        display:flex;
-    }
+    
     .main-nav a{
         display: none;
     }
     .name a{
-        display: block;
-        padding: 10px 15px;
         text-transform: uppercase;
     }
     .row{
