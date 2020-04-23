@@ -6,22 +6,33 @@
     <title>personal web</title>
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="stylesheet" href="CSS/flexbox.css">
+    
 </head>
 <body>
     <div class="main-header">
         <div class="container">
             <h1 class="name"><a href="#">Grace<img class="logo" src="./img/iconfinder_Star_5349757.png" alt="logo"></a></h1>
             <ul class="main-nav">
-                <li class="menuTrigger"><img src="./img/iconfinder_basics-12_296823.png" alt=""></li>
+                <li class="menuTrigger" id="trigger"><img src="./img/iconfinder_basics-12_296823.png" alt=""></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Contact</a></li>   
             </ul>
         </div>
+        
+    </div>
+    <div class="list" id="listDiv">
+        <button class="X" id="toggleList">X</button>
+        <ul>
+            <li>Portfolio</li>
+            <li>Experience</li>
+            <li>Skills</li>
+            <li>Contact</li>
+        </ul>
     </div>
     <!-- /.main-header -->
-    <div class="banner"><div class="wel">Welcome Message</div></div>
+    <div class="banner"><div class="wel" id="welcome">Welcome Message</div></div>
     <div class="secTitle">Section Title</div>
     <div class="row">
         <div class="box1 col">
@@ -40,5 +51,6 @@
     <div class="btn">
         <a href="#">call to action</a>
     </div>
+    <script src="action.js"></script>
 </body>
 </html>
