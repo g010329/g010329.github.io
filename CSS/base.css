@@ -35,6 +35,9 @@ ul{
     font-size: 1.5em;
     border:0;
 }
+#more{
+    display: none;
+}
 .name,
 .main-nav li {
 	text-align: center;
@@ -90,7 +93,8 @@ img{
 }
 
 .btn{
-    margin:0 auto;
+    margin:10px;
+    
 }
 /* ------------ */
 

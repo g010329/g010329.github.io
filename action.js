@@ -13,3 +13,14 @@ toggleList.addEventListener('click',() => {
 trigger.addEventListener('click',()=>{
     listDiv.style.display='block';
 });
+
+const callAction = document.getElementById('callAction');
+const more = document.getElementById('more');
+callAction.addEventListener('click',()=>{
+    if (more.style.display == 'none') {
+        more.style.display='flex';
+    } else {
+        more.style.display='none';
+    }
+    
+}) ;
