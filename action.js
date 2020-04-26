@@ -17,7 +17,8 @@ trigger.addEventListener('click',()=>{
 const callAction = document.getElementById('callAction');
 const more = document.getElementById('more');
 callAction.addEventListener('click',()=>{
-    if (more.style.display == 'none') {
+    if (more.style.display == 'none' || more.style.display == '') {
+        console.log('show');
         more.style.display='flex';
     } else {
         more.style.display='none';
