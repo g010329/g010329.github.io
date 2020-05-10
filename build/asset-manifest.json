@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cde724a7.chunk.css",
+    "main.js": "/static/js/main.a0f7ceb5.chunk.js",
+    "main.js.map": "/static/js/main.a0f7ceb5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.21e87580.js",
+    "runtime-main.js.map": "/static/js/runtime-main.21e87580.js.map",
+    "static/js/2.f0901a89.chunk.js": "/static/js/2.f0901a89.chunk.js",
+    "static/js/2.f0901a89.chunk.js.map": "/static/js/2.f0901a89.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dcbdd99c06eb620a931dcddaa486dfa5.js": "/precache-manifest.dcbdd99c06eb620a931dcddaa486dfa5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cde724a7.chunk.css.map": "/static/css/main.cde724a7.chunk.css.map",
+    "static/js/2.f0901a89.chunk.js.LICENSE.txt": "/static/js/2.f0901a89.chunk.js.LICENSE.txt",
+    "static/media/iconfinder_Star_5349757.png": "/static/media/iconfinder_Star_5349757.c176c44c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21e87580.js",
+    "static/js/2.f0901a89.chunk.js",
+    "static/css/main.cde724a7.chunk.css",
+    "static/js/main.a0f7ceb5.chunk.js"
+  ]
+}
