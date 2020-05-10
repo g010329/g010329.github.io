@@ -2,7 +2,7 @@
   "name": "0508web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/g010329/g010329.github.io",
+  "homepage": "https://g010329.github.io/g010329.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
